@@ -12,8 +12,6 @@ The repository retrieves the live Cyprus Department of Meteorology XML feed, res
 ## Key features
 
 * Automatic cloud collection through GitHub Actions
-* Runs approximately every 10 minutes
-* Continues while the user's computer is switched off
 * Archives every station returned by the live feed
 * Gives every station the same folder structure
 * Maintains station-level, monthly and national CSV files
