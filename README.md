@@ -12,8 +12,6 @@ The repository retrieves the live Cyprus Department of Meteorology XML feed, res
 ## Key features
 
 * Automatic cloud collection through GitHub Actions
-* Archives every station returned by the live feed
-* Gives every station the same folder structure
 * Maintains station-level, monthly and national CSV files
 * Records missing-station periods using `data_available = 0`
 * Converts wind speed from knots to metres per second while preserving the original values
