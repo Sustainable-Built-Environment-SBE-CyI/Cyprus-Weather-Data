@@ -35,7 +35,7 @@ jobs:
       - name: Commit updated history
         shell: bash
         run: |
-          if git diff --quiet -- data; then
+          if [ -z "$(git status --porcelain -- data)" ]; then
             echo "No data changes to commit."
             exit 0
           fi
