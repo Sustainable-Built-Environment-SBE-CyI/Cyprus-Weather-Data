@@ -2,7 +2,7 @@ name: Collect Cyprus weather
 
 on:
   schedule:
-    # Run at 2, 12, 22, 32, 42 and 52 minutes past each UTC hour.
+    # Six times per hour, avoiding the exact top-of-hour congestion period.
     - cron: "2,12,22,32,42,52 * * * *"
   workflow_dispatch:
 
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 10
 
     steps:
       - name: Check out repository
@@ -29,7 +29,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect LIMASSOL and TEPAK
+      - name: Collect all Cyprus stations
         run: python github_collector.py
 
       - name: Commit updated history
@@ -44,8 +44,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data
-          git commit -m "Weather update $(date -u +'%Y-%m-%d %H:%M UTC')"
-
-          # Incorporate any repository changes made while this job was running.
+          git commit -m "Cyprus weather update $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

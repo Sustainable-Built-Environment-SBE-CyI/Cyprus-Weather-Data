@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software archive, please cite it and attribute the source meteorological data."
+title: "Cyprus Meteorological Station Historical Collector"
+type: software
+authors:
+  - family-names: "Pandey"
+    given-names: "Ravi Kumar"
+year-released: 2026
+license: MIT
+repository-code: "https://github.com/exploringravi/cyprus-weather-limassol-tepak"
+abstract: "A GitHub Actions workflow that archives current Cyprus Department of Meteorology station observations into timestamped national CSV histories."
+keywords:
+  - Cyprus
+  - meteorological stations
+  - weather observations
+  - GitHub Actions
+  - open data
