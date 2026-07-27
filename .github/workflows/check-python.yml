@@ -1,0 +1,24 @@
+name: Check Python
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  syntax-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python -m py_compile cyprus_weather_logger.py
+          python -m py_compile selected_station_exports.py
+          python -m py_compile github_collector.py
+          python -m py_compile export_weather_history.py
