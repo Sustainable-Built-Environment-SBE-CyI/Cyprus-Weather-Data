@@ -1,9 +1,9 @@
-name: Collect Cyprus weather
+﻿name: Collect Cyprus weather
 
 on:
   schedule:
     # Six times per hour, avoiding the exact top-of-hour congestion period.
-    - cron: "2,12,22,32,42,52 * * * *"
+    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -47,3 +47,4 @@ jobs:
           git commit -m "Cyprus weather update $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
+
