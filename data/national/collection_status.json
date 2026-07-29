@@ -1,11 +1,12 @@
 {
   "source_url": "https://dom.org.cy/AWS/OpenData/CyDoM.xml",
-  "last_attempt_utc": "2026-07-29T15:32:20.605422+00:00",
-  "collection_slot_utc": "2026-07-29T15:30:00+00:00",
-  "parsed_feed_observation_count": 427,
+  "last_attempt_utc": "2026-07-29T16:52:17.939238+00:00",
+  "collection_slot_utc": "2026-07-29T16:50:00+00:00",
+  "parsed_feed_observation_count": 422,
   "stations_tracked": 55,
-  "stations_reporting": 54,
+  "stations_reporting": 53,
   "stations_not_reporting": [
+    "ALONOUDI",
     "ASTROMERITIS"
   ],
   "new_national_rows_added": 55,
