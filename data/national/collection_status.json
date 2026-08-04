@@ -1,14 +1,13 @@
 {
   "source_url": "https://dom.org.cy/AWS/OpenData/CyDoM.xml",
-  "last_attempt_utc": "2026-08-04T21:55:20.893810+00:00",
-  "collection_slot_utc": "2026-08-04T21:50:00+00:00",
-  "parsed_feed_observation_count": 415,
+  "last_attempt_utc": "2026-08-04T22:54:07.100270+00:00",
+  "collection_slot_utc": "2026-08-04T22:50:00+00:00",
+  "parsed_feed_observation_count": 420,
   "stations_tracked": 55,
-  "stations_reporting": 52,
+  "stations_reporting": 53,
   "stations_not_reporting": [
     "ALONOUDI",
-    "AVDIMOU",
-    "PYRGOS"
+    "AVDIMOU"
   ],
   "new_national_rows_added": 55,
   "new_station_folder_rows_added": 55,
