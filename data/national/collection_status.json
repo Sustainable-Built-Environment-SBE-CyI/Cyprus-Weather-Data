@@ -1,11 +1,13 @@
 {
   "source_url": "https://dom.org.cy/AWS/OpenData/CyDoM.xml",
-  "last_attempt_utc": "2026-08-03T23:31:53.074788+00:00",
-  "collection_slot_utc": "2026-08-03T23:30:00+00:00",
-  "parsed_feed_observation_count": 436,
+  "last_attempt_utc": "2026-08-04T01:02:32.800168+00:00",
+  "collection_slot_utc": "2026-08-04T01:00:00+00:00",
+  "parsed_feed_observation_count": 427,
   "stations_tracked": 55,
-  "stations_reporting": 55,
-  "stations_not_reporting": [],
+  "stations_reporting": 54,
+  "stations_not_reporting": [
+    "CHROMIO"
+  ],
   "new_national_rows_added": 55,
   "new_station_folder_rows_added": 55,
   "station_folder_template": "data/stations/<STATION_CODE>/{history_wide.csv,latest_wide.csv,station_metadata.json,monthly/YYYY/YYYY-MM.csv}"
