@@ -4,8 +4,8 @@
   "latitude": null,
   "longitude": null,
   "elevation_m": null,
-  "latest_collection_slot_utc": "2026-08-07T18:00:00+00:00",
-  "latest_source_time": "2026-08-07 21:00 (Local Time)",
+  "latest_collection_slot_utc": "2026-08-07T19:10:00+00:00",
+  "latest_source_time": "2026-08-07 22:00 (Local Time)",
   "latest_data_available": 1,
   "latest_observation_count": 5,
   "source_url": "https://dom.org.cy/AWS/OpenData/CyDoM.xml"
