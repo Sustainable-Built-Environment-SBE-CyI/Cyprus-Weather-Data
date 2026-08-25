@@ -1,13 +1,17 @@
 {
   "source_url": "https://dom.org.cy/AWS/OpenData/CyDoM.xml",
-  "last_attempt_utc": "2026-08-25T03:33:19.943149+00:00",
-  "collection_slot_utc": "2026-08-25T03:30:00+00:00",
-  "parsed_feed_observation_count": 419,
+  "last_attempt_utc": "2026-08-25T04:12:15.408524+00:00",
+  "collection_slot_utc": "2026-08-25T04:10:00+00:00",
+  "parsed_feed_observation_count": 387,
   "stations_tracked": 55,
-  "stations_reporting": 53,
+  "stations_reporting": 49,
   "stations_not_reporting": [
-    "AGROS",
-    "PYRGOS"
+    "PAPHOS",
+    "PENTAKOMO",
+    "POLYSTYPOS",
+    "PYRGOS",
+    "TROODOS",
+    "XYLOPHAGOU"
   ],
   "new_national_rows_added": 55,
   "new_station_folder_rows_added": 55,
