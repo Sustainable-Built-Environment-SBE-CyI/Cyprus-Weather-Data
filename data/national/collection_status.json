@@ -1,13 +1,12 @@
 {
   "source_url": "https://dom.org.cy/AWS/OpenData/CyDoM.xml",
-  "last_attempt_utc": "2026-08-25T21:36:47.936281+00:00",
-  "collection_slot_utc": "2026-08-25T21:30:00+00:00",
-  "parsed_feed_observation_count": 423,
+  "last_attempt_utc": "2026-08-25T21:57:06.599599+00:00",
+  "collection_slot_utc": "2026-08-25T21:50:00+00:00",
+  "parsed_feed_observation_count": 428,
   "stations_tracked": 55,
-  "stations_reporting": 53,
+  "stations_reporting": 54,
   "stations_not_reporting": [
-    "KANNAVIOU",
-    "PYRGOS"
+    "KANNAVIOU"
   ],
   "new_national_rows_added": 55,
   "new_station_folder_rows_added": 55,
