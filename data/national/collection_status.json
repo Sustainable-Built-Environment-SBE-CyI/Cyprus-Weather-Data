@@ -1,7 +1,7 @@
 {
   "source_url": "https://dom.org.cy/AWS/OpenData/CyDoM.xml",
-  "last_attempt_utc": "2026-10-21T17:16:15.576459+00:00",
-  "collection_slot_utc": "2026-10-21T17:10:00+00:00",
+  "last_attempt_utc": "2026-10-21T20:39:42.355222+00:00",
+  "collection_slot_utc": "2026-10-21T20:30:00+00:00",
   "parsed_feed_observation_count": 420,
   "stations_tracked": 55,
   "stations_reporting": 53,
